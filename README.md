@@ -8,6 +8,11 @@ A website that generates a random password based on user's selected critera.
 * CSS
 * Javascript
 
+## ⚡ Help From
+* Rando.js
+https://github.com/nastyox/Rando.js.git
+![](randoJS.gif)
+
 ## Webiste
 https://tpgent01.github.io/password-generator/
 
