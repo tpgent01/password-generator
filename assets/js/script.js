@@ -63,7 +63,8 @@ console.log(password)
 
 
 // Add password to display area
-alert("Your random password is: " + password);
+//alert("Your random password is: " + password);
+document.getElementById("password").innerHTML = password;
 
 
 // Get references to the #generate element
