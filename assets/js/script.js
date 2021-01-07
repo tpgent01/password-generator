@@ -45,38 +45,42 @@ function generatePassword(){
   console.log(caseArray);
 
 
-// Function to turn array into string
-function randomPwd(length) {
-  let caseString = String(caseArray)
+  // Function to turn array into string
+  function randomPwd(length) {
+    let caseString = String(caseArray)
   console.log(caseString)
 
 
-// // For loop to choose password characters
-for(var i = 0; i < length; i++){
-password += caseString.charAt(Math.floor(Math.random() * caseLength));
+  // For loop to choose password characters
+  for(var i = 0; i < length; i++){
+  password += caseString.charAt(Math.floor(Math.random() * caseLength));
+  }
+  return password;
+  } 
+
+
+  password = randomPwd(caseLength)
+  console.log(password)
+
+
+  // Add password to display area
+  //alert("Your random password is: " + password);
+  document.getElementById("password").innerHTML = password;
+
+
+  // Get references to the #generate element
+  var generateBtn = document.querySelector("#generate");
+
+
+  // Write password to the #password input
+  function writePassword() {
+    var password = generatePassword();
+    var passwordText = document.querySelector("#password");
+
+    passwordText.value = password;
+  }
+
+
+  // Add event listener to generate button 
+  generateBtn.addEventListener("click", writePassword)
 }
-return password;
-}
-
-password = randomPwd(caseLength)
-console.log(password)
-
-
-// Add password to display area
-//alert("Your random password is: " + password);
-document.getElementById("password").innerHTML = password;
-
-
-// Get references to the #generate element
-var generateBtn = document.querySelector("#generate");
-
-// Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
-}
-
-// Add event listener to generate button 
-generateBtn.addEventListener("click", writePassword)};
