@@ -49,3 +49,35 @@ for(var i = 0; i < userinput; i++) {
 
     // Available Character set ARRAY  array[random]
 }
+
+
+
+
+
+// else if (upper==true && lower==true && numbers==true && special==false){
+  //   caseArray.push(upperChar + lowerChar + numberChar);
+  // } 
+  // else if (upper==false && lower==true && numbers==true && special==true){
+  //   caseArray.push(lowerChar + numberChar + specialChar);
+  // } 
+  // else if (upper==true && lower==true && numbers==false && special==false){
+  //   caseArray.push(upperChar + lowerChar);
+  // } 
+  // else if (upper==false && lower==true && numbers==true && special==false){
+  //   caseArray.push(lowerChar + numberChar);
+  // } 
+  // else if (upper==false && lower==false && numbers==true && special==true){
+  //   caseArray.push(numberChar + specialChar);
+  // } 
+  // else if (upper==true && lower==false && numbers==false && special==false){
+  //   caseArray.push(upperChar);
+  // } 
+  // else if (upper==false && lower==true && numbers==false && special==false){
+  //   caseArray.push(lowerChar);
+  // } 
+  // else if (upper==false && lower==false && numbers==true && special==false){
+  //   caseArray.push(numberChar);
+  // } 
+  // else if (upper==false && lower==false && numbers==false && special==true){
+  //   caseArray.push(specialChar);
+  // } 
