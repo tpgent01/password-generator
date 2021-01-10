@@ -11,7 +11,7 @@ A website that generates a random password based on user's selected criteria.
 ## 💻 Webiste
 https://tpgent01.github.io/password-generator/
 
-![](website.gif | width=100)
+![](website.gif =250x250)
 
 ## 📌 Contribution
 Created by Taylor Gentry
